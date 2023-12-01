@@ -13,6 +13,8 @@ body {
 
 /* global styling ends */
 
+
+
 /* root variables starts */
 
 :root {
@@ -58,6 +60,8 @@ body {
 /* navbar styling ends */
 
 
+
+
 /* search container homepage styling starts */
 
 .main-container {
@@ -66,7 +70,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 
     padding: 10rem 0 0 0;
 
@@ -147,6 +150,10 @@ body {
     width: 40px;
     object-fit: contain;
     margin-right: 10px;
+}
+
+.add-to-fav:hover {
+    font-weight: 700;
 }
 
 /* search container homepage styling ends */
